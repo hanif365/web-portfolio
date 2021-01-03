@@ -14,7 +14,7 @@ h2{
 p{
     color: dimgray;
 }
-.name-highlight{
+.color-highlight{
     color: orange;
 }
 .half-width{
@@ -27,7 +27,7 @@ p{
     width: 100%;
 }
 .profile-img{
-    /* margin-top: 50px; */
+    margin-top: 50px;
 }
 .top-banner{
     /* border: 1px solid red; */
@@ -60,4 +60,37 @@ section{
     background: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+
+/************** Experiences Section **************/
+.experience-area{
+    background: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exp-heading{
+    text-align: center;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background: #fff;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg ,blue, cyan);
+    border-image-slice: 1;
+}
+
+/************ Footer Section *************/
+
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
