@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    padding: 0;
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -22,6 +23,7 @@ p{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    margin-top: 10%;
 }
 .half-width img{
     width: 100%;
